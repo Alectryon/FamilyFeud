@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   	<meta charset="utf-8">
-  	<title>The HTML5 Herald</title>
+  	<title>Family Feud</title>
   	<meta name="description" content="The HTML5 Herald">
   	<meta name="author" content="SitePoint">
   	<link rel="stylesheet" href="css/index.css?v=1.0">
@@ -11,33 +11,83 @@
 </head>
 
 <body>
-	<table id="score">
+	<!-- total available pts this round -->
+	<table id="totalPts">
 		<tr>
 			<th> 0 </th>
 		</tr>
 	</table>
 
+	<!-- current pts for each team -->
+	<table id="team1">
+		<tr>
+			<th> 0 </th>
+		</tr>
+	</table>
 
+	<table id="team2">
+		<tr>
+			<th> 0 </th>
+		</tr>
+	</table>
+
+	<!-- answer board -->
     <table id="board">
   		<tr>
+    		<th> 1 </th>
+    		<th> 5 </th>
+  		</tr>
+	  	
+	  	<tr>
+	    	<td> 2 </td>
+	    	<td> 6 </td>
+	  	</tr>
+
+  		<tr>
+    		<td> 3 </td>
+    		<td> 7 </td>
+  		</tr>
+
+		<tr>
+    		<td> 4 </td>
+    		<td> 8 </td>
+  		</tr>
+
+	</table>
+
+	<br>
+	<table id="board">
+
+  		<tr class="answer">
+    		<th>Firstname</th>
+    		<th>Lastname</th>
     		<th>Firstname</th>
     		<th>Lastname</th>
   		</tr>
 	  	
-	  	<tr>
+	  	<tr class="points">
+	    	<td>Jill</td>
+	    	<td>Smith</td>
 	    	<td>Jill</td>
 	    	<td>Smith</td>
 	  	</tr>
 
-  		<tr>
+  		<tr class="answer">
+    		<td>Eve</td>
+    		<td>Jackson</td>
     		<td>Eve</td>
     		<td>Jackson</td>
   		</tr>
 
-		<tr>
+		<tr class="points">
+    		<td>Eve</td>
+    		<td>Jackson</td>
     		<td>Eve</td>
     		<td>Jackson</td>
   		</tr>
+
+
+
 	</table>
 </body>
 </html>

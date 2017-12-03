@@ -1,5 +1,20 @@
 #board {
-	size: 50%;
+	width: 50%;
 	background-color: blue;
 	margin: auto;
+	border: solid;
+	color: white;
+}
+
+#totalPts {
+	margin: auto;
+}
+
+.answer {
+	width: 20%;
+}
+
+table, th, td, tr {
+   border: 3px solid black;
+   text-align: center;
 }
